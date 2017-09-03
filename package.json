@@ -1,13 +1,8 @@
-﻿{
-
-	"name"		: "electron-solidworks",
-
-	"version"	: "0.1.0",
-
-	"main"		: "main.js",
-
+{
+	"name": "electron-solidworks",
+	"version": "0.1.0",
+	"main": "main.js",
 	"scripts": {
 		"start": "electron ."
-}
-
+	}
 }
