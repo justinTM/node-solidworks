@@ -1,5 +1,5 @@
 # electron-solidworks
-An experimentation to use the Solidworks C# API within [Electron][electron-link], using ![Edge.js][electron-edge-link] for scripting C# within Node.js  
+An experimentation to use the Solidworks C# API within [Electron][electron-link], using [Edge.js][electron-edge-link] for scripting C# within Node.js  
 
 
 ## Purpose
