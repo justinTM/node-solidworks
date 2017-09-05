@@ -54,3 +54,46 @@ app.on('activate', () => {
 
 // In this file you can include the rest of your app's specific main process
 // code. You can also put them in separate files and require them here.
+
+var add7 = edge.func({
+    source: function() {/*
+        // System.dll
+        using System;
+
+        // System.Core.dll
+        using System.Threading.Tasks;
+        using System.Collections.Generic;
+        using System.ComponentModel;
+        using System.Linq;
+        using System.IO;
+
+        // Interop.SldWorks.dll
+        using SldWorks;
+
+        // Interop.SwConst.dll
+        using SwConst;
+
+        // Interop.SwConst.dll
+        using SwCommands;
+
+        public class Startup
+        {
+            public async Task<object> Invoke(object input)
+            {
+                int a;
+                a = 5;
+                return a;
+            }
+        }
+    */},
+    references: [
+      'System.dll',
+      'System.Core.dll',
+      'Interop.SldWorks.dll',
+      'Interop.SwCommands.dll',
+      'Interop.SwConst.dll',
+    //'SldWorks',
+    //'SwConst',
+    //'SwCommands'
+  ]
+});
