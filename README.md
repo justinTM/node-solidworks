@@ -3,9 +3,9 @@ An experimentation to use the Solidworks C# API within [Electron][electron-link]
 
 
 ## Purpose
-The purpose of this project is for me to practice on my web development skills, driven by my work on the already-existing project [Solidworks Submissions Form][solidworks-submissions-form-link] (a C# GUI to quickly grade student Solidworks submissions). Along the way, I hope to learn more about [Electron][electron-link], [Edge.js][electron-edge-link] (to run C# code within Node.js), and web development skill like HTML/JS/CSS (of which I only have a basic understanding).
+The purpose of this project is for me to practice on my web development skills, driven by my work on the project [Solidworks Submissions Form][solidworks-submissions-form-link] (a C# GUI to quickly grade student Solidworks submissions). Along the way, I hope to learn more about [Electron][electron-link], [Edge.js][electron-edge-link] (to run C# code within Node.js), and web development skill like HTML/JS/CSS (of which I only have a basic understanding).
 
-This project will realistically do everything the Solidworks Submissions Form can, but with more complexity. However, a GUI built using modern web dev techniques (HTML, JS, and CSS) - instead of "proprietary" Windows GUI tools within Visual Studio - will ultimately be more valuable to me.
+This project will realistically do everything the Solidworks Submissions Form can, but with more complexity. However, building a GUI using web dev techniques will help me grow expand my skillset, and is something no one has done before which is exciting!
 
 Hopefully others searching for Solidworks working with Electron will find this repo useful.
 
