@@ -1,0 +1,11 @@
+{
+	"name": "electron-solidworks",
+	"version": "0.1.0",
+	"main": "main.js",
+	"scripts": {
+		"start": "electron ."
+	},
+	"dependencies": {
+		"electron-edge": "^6.5.5"
+	}
+}
